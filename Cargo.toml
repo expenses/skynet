@@ -1,0 +1,15 @@
+[package]
+name = "skynet"
+version = "0.1.0"
+authors = ["Ashley <expenses@airmail.cc>"]
+repository = "https://github.com/expenses/skynet"
+documentation = "https://docs.rs/skynet"
+description = "Wrapped networking primitives for sending serialized structs over a connection."
+license = "MIT"
+categories = ["networking", "games"]
+keywords = ["serialize", "networking"]
+readme = "readme.md"
+
+[dependencies]
+bincode = "1"
+serde = "1"

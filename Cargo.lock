@@ -1,0 +1,31 @@
+[[package]]
+name = "bincode"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "byteorder 1.2.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.72 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "byteorder"
+version = "1.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "serde"
+version = "1.0.72"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "skynet"
+version = "0.1.0"
+dependencies = [
+ "bincode 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.72 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum bincode 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)" = "9f2fb9e29e72fd6bc12071533d5dc7664cb01480c59406f656d7ac25c7bd8ff7"
+"checksum byteorder 1.2.4 (registry+https://github.com/rust-lang/crates.io-index)" = "8389c509ec62b9fe8eca58c502a0acaf017737355615243496cde4994f8fa4f9"
+"checksum serde 1.0.72 (registry+https://github.com/rust-lang/crates.io-index)" = "98b72cb11d2f90a50789254281aac9211092fd1ba87e067b45c94652fffe1cf1"
