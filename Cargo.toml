@@ -7,7 +7,7 @@ documentation = "https://docs.rs/skynet"
 description = "Wrapped networking primitives for sending serialized structs over a connection."
 license = "MIT"
 categories = ["networking", "games"]
-keywords = ["serialize", "networking"]
+keywords = ["serialize", "network-programming"]
 readme = "readme.md"
 
 [dependencies]
