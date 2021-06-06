@@ -1,4 +1,4 @@
-# Skynet
+# [Deprecated :skull:] Skynet
 
 Wrapped networking primitives for sending serialized structs over a connection.
 
